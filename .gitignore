@@ -4,4 +4,6 @@ Gemfile.lock
 /vendor
 .ruby-version
 /tmp
-/config
+/config/credentials.yml.enc
+/config/master.key
+.env
