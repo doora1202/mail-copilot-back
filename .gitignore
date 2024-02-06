@@ -1,6 +1,4 @@
 config.ru
-Gemfile
-Gemfile.lock
 /vendor
 .ruby-version
 /tmp
