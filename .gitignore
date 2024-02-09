@@ -1,4 +1,3 @@
-config.ru
 /vendor
 .ruby-version
 /tmp
