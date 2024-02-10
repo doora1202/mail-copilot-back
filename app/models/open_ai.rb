@@ -4,7 +4,7 @@ class OpenAi < ApplicationRecord
         response = client.chat(
         parameters: {
             model: 'gpt-3.5-turbo',
-            messages: [{ role: 'user', content: "メールの件名は#{subject}です。本文を書いてください なおできるだけ短い文章で書いてください" }],
+            messages: [{ role: 'user', content: "メールの件名は#{subject}です。本文のみを書いてください。" }],
         }
     )
     response.dig('choices', 0, 'message', 'content')
