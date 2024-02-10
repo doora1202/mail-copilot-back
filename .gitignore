@@ -4,3 +4,4 @@
 /config/credentials.yml.enc
 /config/master.key
 .env
+/log
