@@ -14,6 +14,6 @@ class MailcopilotController < ActionController::API
     private
     
     def apikey_params
-        params.require(:apikey)
+        params.permit(:apikey)
     end
 end

@@ -5,3 +5,4 @@
 /config/master.key
 .env
 /log
+/db/development.sqlite3
